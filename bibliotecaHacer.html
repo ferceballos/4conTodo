@@ -1,0 +1,135 @@
+
+<html>
+<head>
+<title>Hacer un reporte</title>
+<link rel="shortcut icon" href="img/icon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="css/biblioteca.css">
+</head>
+
+<body class="indigo-grey lighten-5">
+
+    <!-- Navbar and Header -->
+    <nav class="nav-extended nav-full-header z-depth-0 blue-grey darken-3">
+      <div class="nav-background">
+        <div class="ea k" style="background-image: url('img/fancy.jpg');"></div>
+      </div>
+      <div class="nav-wrapper db">
+        <a href="/pages/demo" class="brand-logo"><img style="margin-top: 20px;" src="img/logo.png"></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="bt hide-on-med-and-down">
+          <li><a href="/pages/blog">Inicio</a></li>
+          <li><a href="/pages/docs">Sobre nosotros</a></li>
+      </div>
+
+      <div class="nav-header valign-wrapper">
+        <div class="de">
+          <h1>4 CON TODO</h1>
+          <div class="ge">Podcast</div>
+        </div>
+      </div>
+
+      <div class="row center-align icon-wrap">
+        <div class="col m8 s12 offset-m2">
+          <a href="https://www.facebook.com/4contodo/" target="_blank" class="icon"><img src="img/fb.png" height="40" width="40"></a>
+          <a href="https://twitter.com/4_contodo" target="_blank" class="icon"><img src="img/ttr.png" height="40" width="40"></a>
+          <a href="https://www.instagram.com/4_contodo/" target="_blank" class="icon"><img src="img/inst.png" height="40" width="40"></a>
+          <a href="https://www.patreon.com" target="_blank" class="icon"><img src="img/patreon.png" height="40" width="40"></a>
+        </div>
+      </div>
+
+    </nav>
+
+    <ul class="side-nav" id="nav-mobile">
+      <li><a href="/pages/demo"><img style="margin-top: 20px;" src="img/logo.png"></a></li>
+      <li class="k"><a href="/pages/dark-theme"><i class="material-icons">brightness_3</i>Dark Theme</a></li>
+      <li><a href="/pages/blog"><i class="material-icons">edit</i>Blog</a></li>
+      <li><a href="/pages/docs"><i class="material-icons">school</i>Docs</a></li>
+      <li><a href="/pages/full-header"><i class="material-icons">fullscreen</i>Fullscreen Header</a></li>
+      <li><a href="/pages/horizontal"><i class="material-icons">swap_horiz</i>Horizontal Style</a></li>
+      <li><a href="/pages/no-image"><i class="material-icons">texture</i>No Image Expand</a></li>
+    </ul>
+<br><br>
+
+<div class="container">
+   <div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/67.jpeg">
+              <span class="card-title"><b>#67</b> Muchas Felicidades</span>
+            </div>
+            <div class="card-content row">
+              <div class="col s12">
+                <p>En este capítulo hablamos de historias que nos pasaron en la escuela, cuando algunos dimos clases.
+                Esperamos disfruten el capítulo tanto como nosotros.</p><br>
+                <audio controls preload="metadata"style="width:100%">
+                  <source src="media/67.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+<div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/66.jpeg">
+              <span class="card-title"><b>#66</b> Mujeres engañadas</span>
+            </div>
+            <div class="card-content row">
+              <div class="col s12">
+                <p>¡Escuchen la intervención de Irlanda al final del programa! ¡Disfruten!</p><br>
+                <audio controls preload="metadata"style="width:100%">
+                  <source src="media/67.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    <!-- Core Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/gallery.min.test.js?12295265317662713736" crossorigin="anonymous"></script>
+
+  </body>
+
+<script src="js/jquery-2.1.4.min.js" />"></script>
+<script src="js/materialize.min.js" />"></script>
+<script>
+	$(document).ready(function() {
+		// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+		$('.modal').modal();
+	});
+
+	$(document).ready(function() {
+		$('select').material_select();
+	});
+
+	$('.dropdown-button').dropdown({
+           inDuration: 300,
+           outDuration: 225,
+           constrain_width: true,
+           hover: false,
+           gutter: 0,
+           belowOrigin: false
+           }
+      );
+
+	$(".button-collapse").sideNav();
+</script>
+</html>
